@@ -19,4 +19,3 @@ The scripts are written in Python 3.X version.<br />
    <br />
 ## Documentation
 The explanation of solution are documented in report.docx<br />
-* <a href="docs">report.docx</a>
