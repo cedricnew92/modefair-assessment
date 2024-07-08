@@ -7,7 +7,7 @@ The scripts are written in Python 3.X version.<br />
 ## Installation
 1. Clone or download and unzip this repository to workspace.<br />
 2. Change current path to workspace.<br />
-   **cd PATH/TO/modefiar-assesment**<br />
+   **cd PATH/TO/modefair-assesment**<br />
 3. Install libraries<br />
    **pip install -r requirements.txt**<br />
 ## Test
@@ -15,7 +15,7 @@ The scripts are written in Python 3.X version.<br />
    <br />
    **python main.py**<br />
    <br />
-   This script will performs 500 iterations and once finished the best optimal result will be selected. (Refer to report.docx for explaination)<br />
+   This script will performs 100 iterations and once finished the best optimal result will be selected. (Refer to report.docx for explaination)<br />
    <br />
 ## Documentation
 The explanation of solution are documented in report.docx<br />
