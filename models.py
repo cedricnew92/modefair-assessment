@@ -1,21 +1,15 @@
 from utils import *
 
 class Coordinate:
-	def __init__(self, id, latitude, longitude):
+	def __init__(self, id, name, latitude, longitude):
 		self.id = id
+		self.name = name
 		self.latitude = latitude
 		self.longitude = longitude
 
-	def __getitem__(self, index):
-		attributes = [ 
-			self.latitude,  
-			self.longitude
-		]
-		return attributes[index]
-
 class Customer(Coordinate):
-	def __init__(self, id, latitude, longitude, demand):
-		super().__init__(id, latitude, longitude)
+	def __init__(self, id, name, latitude, longitude, demand):
+		super().__init__(id, name, latitude, longitude)
 		self.demand = demand
 
 class Vehicle:
@@ -52,5 +46,5 @@ class Path:
 		for route in self.routes:
 			for coordinate in route.stops:
 				if coordinate.id != -1:
-					full_path_without_depot.append(coordinate.id - 1)
+					full_path_without_depot.append(coordinate.id)
 		return full_path_without_depot
